@@ -7,8 +7,8 @@ export default function Navbar() {
     return (
         <div className="navbar">
             <nav>
-                <button><Link href={'/'} className={pathname === '/' ? 'active' : ''}>Início</Link></button>
-                <button><Link href={'/museu'} className={pathname === '/museu' ? 'active' : ''}>Acessar o Museu</Link></button>
+                <Link href={'/'} className={pathname === '/' ? 'active' : ''}>Início</Link>
+                <Link href={'/museu'} className={pathname === '/museu' ? 'active' : ''}>Acessar o Museu</Link>
             </nav>
         </div>
     )
