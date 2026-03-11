@@ -9,6 +9,7 @@ export default function Navbar() {
             <nav>
                 <Link href={'/'} className={pathname === '/' ? 'active' : ''}>Início</Link>
                 <Link href={'/museu'} className={pathname === '/museu' ? 'active' : ''}>Acessar o Museu</Link>
+                <Link href={'/destaques'} className={pathname === '/destaques' ? 'active' : ''}>Destaques</Link>
             </nav>
         </div>
     )

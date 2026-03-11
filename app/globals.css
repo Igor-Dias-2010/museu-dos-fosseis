@@ -120,10 +120,9 @@ p:first-of-type {
     padding-right: 50px;
 }
 
-@media(max-width: 375px) {
+@media(min-width: 375px) {
     .main-fotos {
         margin-top: 50px;
-        display: grid;
         align-items: center;
         grid-template-columns: 1fr;
         gap: 50px;
