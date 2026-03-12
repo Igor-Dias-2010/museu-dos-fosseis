@@ -13,6 +13,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url("/background/background-gelo.jpg");
     background-size: auto 700px;
+    background-attachment: fixed;
 
 }
 
@@ -155,7 +156,8 @@ p:first-of-type {
     margin-left: 50px;
     margin-right: 50px;
 }
-.lightbox{
+
+.lightbox {
     position: fixed;
     top: 0;
     left: 0;
@@ -169,10 +171,22 @@ p:first-of-type {
 
     z-index: 10000;
 }
-.img-lightbox{
+
+.img-lightbox {
     max-width: 90%;
     max-height: 90%;
 }
-.img{
+
+.img {
     cursor: pointer;
+}
+.creditos a{
+    text-decoration: none;
+}
+.creditos a:hover{
+    text-decoration: underline;
+}
+body::selection{
+    background-color: #0F2A44;
+    color: #2B7A9E;
 }
